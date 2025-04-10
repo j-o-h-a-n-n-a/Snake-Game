@@ -19,7 +19,7 @@ Die Aufgabe war es, ein funktionierendes Snake-Spiel zu bauen – inklusive High
 
 --> [Hier geht’s zum Spiel](https://snake-game-0pau.onrender.com)
 
-## Tools
+## Tech-Stack
 
 - HTML  
 - CSS  
