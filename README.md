@@ -1,13 +1,13 @@
-# 🐍 Snake Game
+# Snake Game
 
 Klassisches Snake-Game, entwickelt mit Javascrip, HTML und CSS.  
-✏️ Tutorial by @howtobecomeadeveloper 👉 [Hier geht's zum Tutorial](https://www.youtube.com/watch?v=uyhzCBEGaBY&t=5432s)
+Tutorial by @howtobecomeadeveloper --> [Hier geht's zum Tutorial](https://www.youtube.com/watch?v=uyhzCBEGaBY&t=5432s)
 
-## 🎯 Ziel
+## Ziel
 
 Die Aufgabe war es, ein funktionierendes Snake-Spiel zu bauen – inklusive Highscore-Tracking und Deployment über Render.
 
-## 🔧 Features
+## Funktionen
 
 - Steuerung mit Pfeiltasten  
 - Wachsende Schlange bei jedem "Apfel"  
@@ -15,11 +15,11 @@ Die Aufgabe war es, ein funktionierendes Snake-Spiel zu bauen – inklusive High
 - Highscore wird lokal gespeichert (LocalStorage)  
 - Deployment über Render
 
-## 🚀 Live-Version
+## Live-Version
 
-👉 [Hier geht’s zum Spiel](https://snake-game-0pau.onrender.com)
+--> [Hier geht’s zum Spiel](https://snake-game-0pau.onrender.com)
 
-## 🛠️ Technologien
+## Tools
 
 - HTML  
 - CSS  
