@@ -17,7 +17,7 @@ Die Aufgabe war es, ein funktionierendes Snake-Spiel zu bauen – inklusive High
 
 ## 🚀 Live-Version
 
-👉 [Hier geht’s zum Spiel]([https://dein-link.render.com](https://snake-game-0pau.onrender.com/))
+👉 [Hier geht’s zum Spiel](https://snake-game-0pau.onrender.com)
 
 ## 🛠️ Technologien
 
