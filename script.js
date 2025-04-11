@@ -5,6 +5,17 @@ const logo = document.getElementById('logo');
 const score = document.getElementById('score');
 const highScoreText = document.getElementById('highScore');
 
+// Hole den gespeicherten Highscore vom Server beim Laden der Seite
+fetch("http://localhost:3000/highscore")
+  .then(res => res.json())
+  .then(data => {
+    highScore = data.score; // Setze den lokalen Highscore auf den Server-Wert
+    highScoreText.textContent = highScore.toString().padStart(3, '0'); // Zeige den Highscore im Frontend an
+  })
+  .catch(err => {
+    console.error("Fehler beim Abrufen des Highscores:", err);
+  });
+
 // Define game variables 
 const gridSize = 20;
 let snake = [{x: 10, y: 10}]
@@ -113,7 +124,7 @@ function startGame() {
     logo.style.display = 'none';
     gameInterval = setInterval(() => {
         move();
-       checkCollision();
+        checkCollision();
         draw();
     }, gameSpeedDelay);
 }

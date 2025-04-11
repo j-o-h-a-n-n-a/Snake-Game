@@ -68,7 +68,7 @@ body,
 
 #highScore {
     color: #d8ddca;
-    display: none;
+    display: block;  /* Ändere display von none zu block */
 }
 
 .game-border-3, #logo {
