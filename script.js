@@ -195,10 +195,25 @@ function stopGame() {
 }
 
 function updateHighScore() {
-    const currentScore = snake.length -1;
+    const currentScore = snake.length - 1;
     if (currentScore > highScore) {
         highScore = currentScore;
         highScoreText.textContent = highScore.toString().padStart(3, '0');
+
+        fetch("http://localhost:3000/highscore", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ score: highScore })
+        })
+        .then(res => res.json())
+        .then(data => {
+            console.log("Server-Antwort:", data.message);
+        })
+        .catch(err => {
+            console.error("Fehler beim Senden des Scores:", err);
+        });
     }
     highScoreText.style.display = 'block'; 
 }
