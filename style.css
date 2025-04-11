@@ -47,6 +47,7 @@ body,
     text-transform: capitalize;
     padding: 30px;
     margin: 0;
+    z-index: 2;
 }
 
 .scores {
@@ -85,4 +86,5 @@ body,
 
 #logo {
     position: absolute;
+    z-index: 1;
 }
