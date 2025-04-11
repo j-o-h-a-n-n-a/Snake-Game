@@ -1,12 +1,19 @@
 const express = require("express");
+const cors = require("cors"); // CORS-Modul einbinden
 const fs = require("fs");
 const path = require("path");
 
-const app = express(); // ← Erst hier gibt's 'app'
+const app = express();
 const PORT = 3000;
 const scorePath = path.join(__dirname, "highscore.json");
 
-app.use(express.json()); // Middleware, um JSON zu lesen
+// CORS aktivieren
+app.use(cors());
+
+// Middleware, um JSON zu lesen
+app.use(express.json());
+
+// Dein GET- und POST-Endpunkt hier...
 
 // GET /highscore → gibt einen Test-Score zurück
 app.get("/highscore", (req, res) => {
