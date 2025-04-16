@@ -5,14 +5,14 @@ Mit einem Tutorial von @howtobecomeadeveloper --> [Hier geht's zum Tutorial](htt
 
 ## Ziel
 
-Ein funktionierendes Snake-Spiel zu bauen – inklusive Highscore-Tracking und Deployment über Render.
+Die Challenge war es ein funktionierendes Snake-Spiel zu bauen – inklusive Highscore-Tracking.
 
 ## Funktionen
 
 - Steuerung mit Pfeiltasten  
 - Wachsende Schlange bei jedem "Apfel"  
 - Game Over bei Kollision mit sich selbst oder dem Rand  
-- Highscore wird lokal gespeichert (LocalStorage)  
+- Highscore wird persistent gespeichert (momentan noch in Bearbeitung) 
 - Deployment über Render
 
 ## Live-Version
