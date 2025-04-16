@@ -12,7 +12,7 @@ Die Challenge war es ein funktionierendes Snake-Spiel zu bauen – inklusive Hig
 - Steuerung mit Pfeiltasten  
 - Wachsende Schlange bei jedem "Apfel"  
 - Game Over bei Kollision mit sich selbst oder dem Rand  
-- Highscore wird persistent gespeichert (momentan noch in Bearbeitung) 
+- Highscore wird persistent gespeichert (folgt noch - momentan wird der punktestand nur bis zum neustart des Spiels gespeichert) 
 - Deployment über Render
 
 ## Live-Version
