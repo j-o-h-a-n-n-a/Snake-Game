@@ -4,13 +4,15 @@ const instructionText = document.getElementById('instruction-text');
 const logo = document.getElementById('logo');
 const score = document.getElementById('score');
 const highScoreText = document.getElementById('highScore');
+highScoreText.style.display = 'none';
+
 
 // Hole den gespeicherten Highscore vom Server beim Laden der Seite
 fetch("http://localhost:3000/highscore")
   .then(res => res.json())
   .then(data => {
     highScore = data.score; // Setze den lokalen Highscore auf den Server-Wert
-    highScoreText.textContent = highScore.toString().padStart(3, '0'); // Zeige den Highscore im Frontend an
+    //highScoreText.textContent = highScore.toString().padStart(3, '0'); // Zeige den Highscore im Frontend an
   })
   .catch(err => {
     console.error("Fehler beim Abrufen des Highscores:", err);
